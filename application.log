@@ -1,0 +1,42 @@
+2026-11-20 15:34:10,134 - INFO - Application started
+2026-11-20 15:34:10,135 - INFO - Product check: Laptop
+2026-11-20 15:34:10,136 - INFO - Checking stock: available=5, requested=2
+2026-11-20 15:34:10,136 - INFO - Stock available for request of 2
+2026-11-20 15:34:10,136 - INFO - Calculating total price: price=50000.0, quantity=2
+2026-11-20 15:34:10,136 - INFO - Total price calculated successfully: 100000.0
+2026-11-20 15:34:10,136 - INFO - Applying discount: total=100000.0, discount=10.0%
+2026-11-20 15:34:10,136 - INFO - Discount applied successfully: 90000.0
+2026-11-20 15:34:10,137 - INFO - Application finished
+2026-11-20 15:34:10,174 - INFO - Application started
+2026-11-20 15:34:10,174 - INFO - Product check: Mouse
+2026-11-20 15:34:10,174 - INFO - Checking stock: available=5, requested=10
+2026-11-20 15:34:10,174 - WARNING - Insufficient stock: requested 10, available 5
+2026-11-20 15:34:10,174 - INFO - Application finished
+2026-11-20 15:34:10,204 - INFO - Application started
+2026-11-20 15:34:10,205 - INFO - Product check: Mouse
+2026-11-20 15:34:10,205 - INFO - Checking stock: available=5, requested=2
+2026-11-20 15:34:10,205 - INFO - Stock available for request of 2
+2026-11-20 15:34:10,205 - INFO - Calculating total price: price=500.0, quantity=2
+2026-11-20 15:34:10,205 - INFO - Total price calculated successfully: 1000.0
+2026-11-20 15:34:10,205 - INFO - Applying discount: total=1000.0, discount=150.0%
+2026-11-20 15:34:10,205 - ERROR - Discount out of range: 150.0
+2026-11-20 15:34:10,206 - ERROR - Operation failed: discount_percent must be between 0 and 100
+2026-11-20 15:34:10,206 - INFO - Application finished
+2026-11-20 21:25:39,491 - INFO - Application started
+2026-11-20 21:25:53,895 - INFO - Product check: 
+2026-11-20 21:25:53,896 - INFO - Checking stock: available=500, requested=10
+2026-11-20 21:25:53,896 - INFO - Stock available for request of 10
+2026-11-20 21:25:53,896 - INFO - Calculating total price: price=100.0, quantity=10
+2026-11-20 21:25:53,896 - INFO - Total price calculated successfully: 1000.0
+2026-11-20 21:25:53,896 - INFO - Applying discount: total=1000.0, discount=5.0%
+2026-11-20 21:25:53,896 - INFO - Discount applied successfully: 950.0
+2026-11-20 21:25:53,896 - INFO - Application finished
+2026-11-20 21:26:25,314 - INFO - Application started
+2026-11-20 21:26:45,609 - INFO - Product check: ice cream
+2026-11-20 21:26:45,610 - INFO - Checking stock: available=100, requested=2
+2026-11-20 21:26:45,610 - INFO - Stock available for request of 2
+2026-11-20 21:26:45,610 - INFO - Calculating total price: price=50.0, quantity=2
+2026-11-20 21:26:45,610 - INFO - Total price calculated successfully: 100.0
+2026-11-20 21:26:45,610 - INFO - Applying discount: total=100.0, discount=2.0%
+2026-11-20 21:26:45,610 - INFO - Discount applied successfully: 98.0
+2026-11-20 21:26:45,610 - INFO - Application finished
